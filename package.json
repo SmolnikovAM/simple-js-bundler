@@ -1,0 +1,23 @@
+{
+  "name": "simple-js-bundler",
+  "version": "1.0.0",
+  "description": "simple javascript bundler for pure functions and modules",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrei Smolnikov",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.7.4",
+    "@babel/parser": "^7.7.4",
+    "@babel/traverse": "^7.7.4",
+    "@babel/types": "^7.7.4",
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "prettier": "^1.19.1"
+  }
+}
